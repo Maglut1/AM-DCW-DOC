@@ -1,0 +1,347 @@
+:root{
+    /* Color */
+    
+    --primary: #F8F8F8;
+    --primaryText: #554E4E;
+    --primaryBtn: #0A82A8;
+    
+    --green: #006B3D ;
+    --yellow: #EFC600 ;
+    --red: #E03C32 ; 
+    --dark:var(--primaryText);
+    
+    --primary50: rgba(248, 248, 248, 0.5);
+    /* menu buttons */ 
+    
+    --menuButtonWidth: 88px; 
+    --menuButtonHeight: 64px; 
+    --menuButtonRadius: 4px; 
+    
+    
+    /* button-sizes */ 
+    --buttonHeight: 24px; 
+    --buttonSmallHeight: 16px;
+    --buttonBigHeight: 32px;
+    
+    --buttonWidth: 32px;
+    --buttonMediumWidth: 48px;
+    --buttonLongWidth: 80px;
+    
+    
+    /* Text size */ 
+    
+    --largeText: 12px; 
+    --mediumText: 10px; 
+    --smallText: 8px;
+    
+    /* plc screensaver*/
+    --screenSaverHeadline: 64px;
+    --screenSaverStatus: 24px;
+
+    /* PLC SCREEN SIZE*/
+    --plcWidth: 320px;
+    --plcHeigth: 240px;
+
+}
+
+p {
+    margin-bottom: 5rem;
+    width: 500px;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 16px;
+}
+
+.headlines{
+
+}
+.subheading{
+    
+}
+
+.headlinesSlogan{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.header{
+    border-bottom: 1px solid black;
+}
+.nav{
+
+}
+.navList{
+display: flex;
+justify-content: space-evenly;
+
+}
+.navList__item{
+list-style: none;
+
+}
+
+.landing{
+    padding: 1rem;
+}
+.landingHeadline{
+text-align: center;
+}
+
+.landingLogo{
+
+}
+
+.color{
+
+}
+
+
+
+
+
+
+
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    background-color: var(--primaryBtn);
+    color: var(--primary);
+    width: var(--buttonMediumWidth);
+    height: var(--buttonHeight);
+    font-size: var(--smallText);
+    
+}
+.buttonsShowCase{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttonsShowCaseInfo{
+margin: 0;
+margin-right: 1rem;
+width: auto;
+}
+
+.startStopShow{
+
+}
+
+
+
+
+
+
+.startSmallBtn{
+    background-color: var(--green);
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+    
+
+}
+
+.stopSmallBtn{
+    background-color: var(--red);
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+
+}
+
+.startBtn{
+ background-color: var(--green);
+   
+
+}
+
+.stopBtn{
+ background-color: var(--red);
+ 
+
+}
+
+
+    
+.resetSmallBtn{
+    background-color: var(--dark);
+    width: var(--buttonMediumWidth);
+    height: var(--buttonSmallHeight);
+
+}
+
+.resetMediumBtn{
+    background-color: var(--dark);
+
+}
+
+.resetBigBtn{
+    background-color: var(--dark);
+    height: var(--buttonBigHeight);
+}
+
+.actionBtn{
+    width: var(--buttonWidth);
+}
+
+.redBtn{
+    background-color: var(--red);
+}
+
+.endBtn{
+    width: var(--buttonLongWidth);
+}
+
+.acceptBtn{
+    background-color: var(--green);
+    font-size: var(--largeText);
+
+}
+
+
+.menuBtn{
+    width: var(--menuButtonWidth);
+    height: var(--menuButtonHeight);
+}
+.menuSpecialBtn{
+
+}
+
+
+
+
+/* Alerts */
+   
+.notification{
+
+}
+.notificationShowcase{
+    display: flex;
+}
+.notifications{
+    width: var(--plcWidth);
+    height: var(--plcHeigth);
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+ /* DCW and status Styler*/
+    .notificationDCW{
+        font-size: var(--screenSaverHeadline);
+        color: var(--primary);
+        font-weight: 700;
+        margin:0 ;
+        padding: 4rem;
+    }
+
+    .notificationStatus{
+        font-size: var(--screenSaverStatus);
+        color: var(--primary);
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+    }
+.notificationOkay{
+    background-color: var(--green);
+    
+}
+
+.notificationAttention{
+    background-color: var(--yellow);
+}
+
+.notificationAlert{
+    background-color: var(--red);
+}
+
+.pumpFacility{
+ 
+}
+.statusShowcase{
+    display: flex;
+    gap: 1rem;
+}
+
+.pumpFacilityRefresh{
+    display: flex;
+    align-items: center;
+
+}
+.pumpFacilityRefreshBtn{
+
+}
+
+.status{
+    height: 96px;
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+.pumpStatus{
+
+}
+.pumpStatusHeadline{
+    font-size: 12px;
+    color: var(--primary);
+    margin: 8px;
+}
+
+.facilityStatus{
+    
+
+}
+
+.facilityStatusHeadline{
+    font-size: 12px;
+    color: var(--primary);
+    margin: 8px;
+}
+
+.ok{
+    background-color: var(--green);
+}
+.notice{
+background-color: var(--yellow);
+}
+.warning{
+background-color: var(--red);
+}
+
+.statusIcon{
+    color: var(--primary);
+    font-size: 32px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 5px solid var(--primary50);
+    border-radius: 10rem;
+    margin: 0;
+    margin-bottom: 8px;
+    
+    
+   
+}
+.errorcode{
+    color: var(--primary);
+    width: auto;
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+
+}

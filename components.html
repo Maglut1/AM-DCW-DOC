@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>DCW Design Concept</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="navList">
+                <li class="navList__item"><a href="index.html">Home</a></li>
+                <li class="navList__item"><a href="branding.html">Branding</a></li>
+                <li class="navList__item"><a href="components.html">Components</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="headline">Components</h1>
+        <section class="buttons">
+            <h2 class="headlines">Buttons</h2>
+            <p class="headlinesSlogan">Der skal trykkes</p>
+
+            <p class="buttonsShowCaseInfo"> Her kan ses start og stop knapper </p>
+            <section class="buttonsShowCase startStopShow">
+                <button class="startSmallBtn btn">Start</button>
+                <button class="stopSmallBtn btn">Stop</button>
+                <button class="startBtn btn">Start</button>
+                <button class="stopBtn btn">Stop</button>
+            </section>
+
+            <p class="buttonsShowCaseInfo"> Her kan ses Reset knapper </p>
+            <section class="buttonsShowCase resetShow">
+                <button class="resetSmallBtn btn">Reset</button>
+                <button class="resetMediumBtn btn">Reset</button>
+                <button class="resetBigBtn btn">Reset</button>
+            </section>
+
+            <p class="buttonsShowCaseInfo"> Her kan ses action knapper</p>
+            <section class="buttonsShowCase actionShow">
+                <button class="actionBtn btn">+</button>
+                <button class="actionBtn redBtm btn">-</button>
+                <button class="actionBtn btn"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+                <button class="actionBtn btn"><ion-icon name="arrow-back-outline"></ion-icon></button>
+            </section>
+
+            <p class="buttonsShowCaseInfo"> Her kan ses afslut knappen</p>
+            <section class="buttonsShowCase endShow">
+                <button class="endBtn btn">Afslut</button>
+            </section>
+
+            <p class="buttonsShowCaseInfo"> Her kan ses ja og nej knapper </p>
+            <section class="buttonsShowCase acceptShow">
+                <button class="acceptBtn btn">Ja</button>
+                <button class="acceptBtn btn">Nej</button>
+            </section>
+
+            <p class="buttonsShowCaseInfo"> Her kan ses vores menu knapper</p>
+            <section class="buttonsShowCase menuShow">
+                <button class="menuBtn btn">menu</button>
+                <button class="menuBtn btn">Eksemple på hvis den er over to linjer</button>
+                <button class="menuSpecialBtn btn">Eksemple på hvis den er over to linjer</button>
+
+            </section>
+
+
+
+
+        </section>
+
+        <section class="notification">
+            <h2 class="headlines">Notificationer</h2>
+            <p class="headlinesSlogan">Det skal mærkes </p>
+            <section class="notificationShowcase">
+                <section class="notificationOkay notifications">
+                    <h1 class="notificationDCW">DCW</h1>
+                    <p class="notificationStatus">Status: OK</p>
+                </section>
+                <section class="notificationAttention notifications ">
+                    <h1 class="notificationDCW">DCW</h1>
+                    <p class="notificationStatus">Status: Fejl</p>
+                </section>
+                <section class="notificationAlert notifications ">
+                    <h1 class="notificationDCW">DCW</h1>
+                    <p class="notificationStatus">Status: Problem</p>
+                </section>
+            </section>
+        </section>
+
+        <section class="pumpFacility">
+            <h2 class="headlines">Status</h2>
+            <p class="headlinesSlogan">Det skal ses</p>
+            <section class="pumpFacilityRefresh">
+                <p class="buttonsShowCaseInfo"> Klick her for at trigger forskellige statusser</p>
+                <button class="pumpFacilityRefreshBtn btn"><ion-icon class="pumpFacilityRefreshBtnIcon"
+                        name="refresh-outline"></ion-icon></button>
+            </section>
+            <section class="statusShowcase">
+                <section class="pumpStatus status">
+                    <h3 class="pumpStatusHeadline">Pumpe</h3>
+                    <ion-icon class="statusIcon" name="checkmark-outline"></ion-icon>
+                    <p class="errorcode"></p>
+                </section>
+
+                <section class="facilityStatus status">
+                    <h3 class="facilityStatusHeadline">Anlæg</h3>
+                    <ion-icon class="statusIcon" name="checkmark-outline"></ion-icon>
+                    <p class="errorcode"></p>
+                </section>
+            </section>
+
+        </section>
+
+
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
