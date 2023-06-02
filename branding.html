@@ -12,38 +12,80 @@
     <header class="header">
         <nav class="nav">
             <ul class="navList">
-               <a href="#"></a> <li class="navList__item"><a href="index.html">Home</a></li>
-               <a href="#"></a> <li class="navList__item"><a href="branding.html">Branding</a></li>
-               <a href="#"></a> <li class="navList__item"><a href="components.html">Components</a></li>
+                <li class="navList__item"><a href="index.html">Home</a></li>
+                <li class="navList__item"><a href="branding.html">Branding</a></li>
+                <li class="navList__item"><a href="components.html">Components</a></li>
 
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <h1 class="headline">Branding</h1>
 
         <section class="button">
             <h2 class="headlines">Sizing system</h2>
             <h2 class="subheading">Spacings</h2>
-                <p>Vi indsat 16px margin på body, for at skabe noget afstand til kanterne. 
-                    <img src="" alt="">
+            <p>Vi indsat 16px margin på body, for at skabe noget afstand til kanterne.
+
             </p>
             <h2 class="subheading">Font</h2>
-                <p>Vi har valgt skrifttypen Lato og denne skrifttype har vi valgt at benytte os af hele vejen igennem projektet. 
-                    Vi 3 custom properties når det kommer til teksten: <br>
-                    --textLarge: 12px; <br>
-                    --textMedium: 10px; <br>
-                    --textSmall: 8px;
-                </p>
+            <p>Vi har valgt skrifttypen Lato og denne skrifttype har vi valgt at benytte os af hele vejen igennem
+                projektet.
+                Vi 3 custom properties når det kommer til teksten: <br>
+                --textLarge: 12px; <br>
+                --textMedium: 10px; <br>
+                --textSmall: 8px;
+            </p>
         </section>
 
-        
+
         <section class="customProperties">
-            <h2>Custom Properties </h2> 
-            <p>Vi har valgt at lave et design system bygget på custom properties. Vi har lavet custom til spacing, font sizes, colors, button størrelser og radius etc.  </p>
+            <h2>Custom Properties </h2>
+            <p>Vi har valgt at lave et design system bygget på custom properties. Vi har lavet custom til spacing, font
+                sizes, colors, button størrelser og radius etc. </p>
+
+            <h4>Color</h4>
+
+            <p>--primary: #F8F8F8;</p>
+            <p>--primaryText: #554E4E;</p>
+            <p>--primaryBtn: #0A82A8;</p>
+            <p>--green: #006B3D;</p>
+            <p>--yellow: #EFC600;</p>
+            <p>--red: #E03C32;</p>
+            <p>--dark:var(--primaryText);</p>
+            <p>--primary50: rgba(248, 248, 248, 0.5);</p>
+
+            <h4>Menu Button</h4>
+            <p>--menuButtonWidth: 88px;</p>
+            <p>--menuButtonHeight: 64px;</p>
+            <p>--menuButtonRadius: 4px;</p>
+
+            <h4>Button sizes</h4>
+            <p>--buttonSmallHeight: 16px;</p>
+            <p>--buttonHeight: 24px;</p>
+            <p>--buttonBigHeight: 32px;</p>
+            <p>--buttonWidth: 32px;</p>
+            <p>--buttonMediumWidth: 48px;</p>
+            <p>--buttonLongWidth: 80px;</p>
+
+            <h4>Text size</h4>
+            <p>--mediumText: 10px;</p>
+            <p>--smallText: 8px;</p>
+            <p>--largeText: 12px;</p>
+
+            <h4>Plc screensaver</h4>
+            <p>--screenSaverHeadline: 64px;</p>
+            <p>--screenSaverStatus: 24px;</p>
+
+            <h4>PLC screen size</h4>
+            <p>--plcWidth: 320px;</p>
+            <p>--plcHeigth: 240px;</p>
+
+
+
 
             <h2>Colors</h2>
-            
+
             <p>
                 <img src="images/green.png" alt="green color"> <br>
                 Navn: --green: #006B3D; <br>
@@ -58,20 +100,23 @@
 
             <p>
                 <img src="images/yellow.png" alt="yellow color"> <br>
-                Navn: --yellow: #EFC600; <br> 
-                Denne farve bruges til at advare pedeller og service teknikkere om, at systemet eller pumpen ikke kører som den skal.
+                Navn: --yellow: #EFC600; <br>
+                Denne farve bruges til at advare pedeller og service teknikkere om, at systemet eller pumpen ikke kører
+                som den skal.
             </p>
 
             <p>
                 <img src="images/red.png" alt="red color"> <br>
                 Navn: --red: #E03C32; <br>
-                Denne farve bruges til at informere pedeller og service teknikkere om, at systemet eller pumpen ikke kører og at der omgående skal skrides til handling. Samtidig bruges den også på nogle enkelte buttons, som et visuelt tegn for en "negativ" handling.
+                Denne farve bruges til at informere pedeller og service teknikkere om, at systemet eller pumpen ikke
+                kører og at der omgående skal skrides til handling. Samtidig bruges den også på nogle enkelte buttons,
+                som et visuelt tegn for en "negativ" handling.
             </p>
 
             <p>
                 <img src="images/redPressed.png" alt=""> <br>
                 Navn: --redPressed: #851B14; <br>
-                Denne farve bruges som indikator for, at en knap med farven rød er blevet trykket på. 
+                Denne farve bruges som indikator for, at en knap med farven rød er blevet trykket på.
             </p>
 
             <p>
@@ -89,37 +134,42 @@
             <p>
                 <img src="images/primaryBluePressed.png" alt=""> <br>
                 Navn: primaryBluePressed: #064B60; <br>
-                Denne farve bruges som indikator for, at primary-knapperne er trykket på. Giver et respons til brugeren, så der ikke er tvivl om at knappen er blevet trykket på.
+                Denne farve bruges som indikator for, at primary-knapperne er trykket på. Giver et respons til brugeren,
+                så der ikke er tvivl om at knappen er blevet trykket på.
             </p>
 
             <h2>Fonts</h2>
-                <p>
-                    <img src="images/8pxText.png" alt=""> <br>
-                    Navn: --textSmall: 8px; <br>
-                    Denne tekststørrelse bruges til menu-punkter og til tekst inde i knapper såsom afslut knappen og eller input felter.
-                </p>
+            <p>
+                <img src="images/8pxText.png" alt=""> <br>
+                Navn: --textSmall: 8px; <br>
+                Denne tekststørrelse bruges til menu-punkter og til tekst inde i knapper såsom afslut knappen og eller
+                input felter.
+            </p>
 
-                <p>
-                    <img src="images/12pxText.png" alt=""> <br>
-                    Navn: textMedium: 12px; <br>
-                    Denne skriftstørrelse bruges til teksterne inde i menu-knapperne. 
-                </p>
+            <p>
+                <img src="images/12pxText.png" alt=""> <br>
+                Navn: textMedium: 12px; <br>
+                Denne skriftstørrelse bruges til teksterne inde i menu-knapperne.
+            </p>
 
-                <p>
-                    <img src="images/16pxText.png" alt=""> <br>
-                    Navn: --textLarge: 16px; <br>
-                    Denne tekststørrelse bruges til h1'ere.
-                </p>
+            <p>
+                <img src="images/16pxText.png" alt=""> <br>
+                Navn: --textLarge: 16px; <br>
+                Denne tekststørrelse bruges til h1'ere.
+            </p>
 
-                <h2>Button sizes </h2>
+            <h2>Button sizes </h2>
 
-                <p></p>
+            <p></p>
 
-                
-             
-        
-                
-            
+
+
+
+
+            =======
+            <p>Vi har kun gjort brug af en font, Lato</p>
+
+
         </section>
 
 

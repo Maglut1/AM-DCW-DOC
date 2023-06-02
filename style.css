@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
+
 :root{
     /* Color */
     
@@ -55,9 +57,11 @@ img {
     height: 200px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
 body{
     font-family: 'Lato', sans-serif;
+    
+}
+.main{
     margin: 16px;
 }
 
@@ -77,16 +81,23 @@ body{
     border-bottom: 1px solid black;
 }
 .nav{
-
+    font-weight: 700;
+    
 }
 .navList{
 display: flex;
 justify-content: space-evenly;
 
+
 }
 .navList__item{
 list-style: none;
+text-decoration: none;
 
+
+}
+a{
+    text-decoration: none;
 }
 
 .landing{
@@ -226,6 +237,7 @@ width: auto;
 }
 .notificationShowcase{
     display: flex;
+    flex-direction: row;
 }
 .notifications{
     width: var(--plcWidth);
@@ -343,5 +355,13 @@ background-color: var(--red);
     margin-bottom: 8px;
     font-size: 12px;
     font-weight: 700;
+
+}
+
+@media screen and (min-width: 600px) {
+   .notificationShowcase{
+    flex-direction: row ;
+    
+   }
 
 }
